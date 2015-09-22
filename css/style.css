@@ -6,6 +6,10 @@
   background-color: #CCCCCC;
 }
 
+.mathback {
+  background: url(../images/6opac.jpg) repeat center center;
+}
+
 .nav a:hover {
   background-color: #777 !important;
   color: #fff !important;
@@ -36,7 +40,7 @@ body {
 /* Home */
 
 #home {
-  background: url(../images/DSC_1244.jpeg) no-repeat center center;
+  background: url(../images/camera1244.jpeg) no-repeat center center;
   background-position: top;
   display: table;
   height: 0;
@@ -111,7 +115,7 @@ body {
 /* Portfolio */
 
 #portfolio {
-  background: #f6f6f6;
+  background: #fafafa;
   display: table;
   position: relative;
   width: 100%;
