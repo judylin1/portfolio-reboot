@@ -82,8 +82,8 @@ body {
 .home-i {
   color: #000;
 }
-/* About */
 
+/* About */
 #about {
   display: table;
   position: relative;
@@ -120,6 +120,10 @@ body {
   position: relative;
   width: 100%;
   padding: 50px 0 50px 0;
+}
+
+.top-line i {
+  color: navy;
 }
 /* Portfolio Overlay */
 .box1 {
@@ -194,6 +198,7 @@ body {
 
 .bot-line {
   font-style: italic;
+  color: #f2f2f2;
 }
 
 .port-text {
