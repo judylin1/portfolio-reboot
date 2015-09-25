@@ -40,11 +40,11 @@ body {
 /* Home */
 
 #home {
-  background: url(../images/camera1244.jpeg) no-repeat center center;
+  background: url(../images/cam.jpg) no-repeat center center;
   background-position: top;
   display: table;
   height: 0;
-  padding-bottom: 25%;
+  padding-bottom: 32%;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -52,20 +52,22 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.pager {
+  padding-top: 3%;
+}
 
 .home-h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  text-shadow: 2px 2px 0 #000, 2px 2px 0 #000;
-  color: #fff;
-  padding-top: 150px;
+  text-shadow: 2px 2px 0 #666, 2px 2px 0 #666;
+  color: #323232;
 }
 
 .home-h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  text-shadow: 1px 1px 0 #000, 2px 2px 0 #000;
-  color: #fff;
+  text-shadow: 0.5px 0.5px 0 #666, 1px 1px 0 #666;
+  color: #323232;
   font-size: 20px;
 }
 .home-h4 {
@@ -78,9 +80,17 @@ body {
 .btn {
   margin: 5px;
 }
-.home-text a,
-.home-i {
-  color: #000;
+
+.fa-linkedin {
+  color: #007bb6;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-file-text {
+  color: #00004c;
 }
 
 /* About */
@@ -88,7 +98,7 @@ body {
   display: table;
   position: relative;
   width: 100%;
-  padding: 100px 0 100px 0;
+  padding: 50px 0 50px 0;
   height: 0;
 }
 
@@ -119,7 +129,7 @@ body {
   display: table;
   position: relative;
   width: 100%;
-  padding: 50px 0 50px 0;
+  padding: 25px 0 25px 0;
 }
 
 .top-line i {
