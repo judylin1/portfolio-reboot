@@ -40,7 +40,7 @@ body {
 /* Home */
 
 #home {
-  background: url(../images/cam.jpg) no-repeat center center;
+  background: url(../images/camcode.jpg) no-repeat center center;
   background-position: top;
   display: table;
   height: 0;
@@ -123,11 +123,11 @@ body {
 }
 /* Portfolio Overlay */
 .box1 {
-  background: url(/images/prodtracker.jpeg) center;
+  background: url(/images/mathmentors.jpeg) center;
 }
 
 .box2 {
-  background: url(/images/nursebrain.jpeg) center;
+  background: url(/images/prodtracker.jpeg) center;
 }
 
 .box3 {
@@ -135,11 +135,11 @@ body {
 }
 
 .box4 {
-  background: url(/images/circlebouncegif.gif) center;
+  background: url(/images/nursebrain.jpeg) center;
 }
 
 .box5 {
-  background: url(/images/gifgif.gif) center;
+  background: url(/images/circlebouncegif.gif) center;
 }
 
 .box6 {
@@ -368,4 +368,9 @@ height: 100%;
 
 .modal.in .modal-dialog {
 transform: none; /*translate(0px, 0px);*/
+}
+
+hr {
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
