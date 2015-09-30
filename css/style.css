@@ -1,22 +1,24 @@
 /* Navbar */
-
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus {
-  color: #555;
-  background-color: #CCCCCC;
+  color: #FFFFFF;
+  background-color: #CCCC99;
 }
 
-.mathback {
-  background: url(../images/6opac.jpg) repeat center center;
+.navbar {
+  background-color: #003366;
 }
 
 .nav a:hover {
-  background-color: #777 !important;
+  background-color: #CCCC99 !important;
   color: #fff !important;
 }
 
-/* Body */
+#white {
+  color: #FFFFFF;
+}
 
+/* Body */
 body {
   font-size: 16px;
 }
@@ -32,12 +34,14 @@ body {
   text-shadow: 1px 1px 0 #777, 2px 2px 0 #777;
   color: #fff;
 }
-/* HR */
 
 .hr-medium {
   max-width: 300px;
 }
-/* Home */
+
+.mathback {
+  background: url(../images/6opac.jpg) repeat center center;
+}
 
 #home {
   background: url(../images/camcode.jpg) no-repeat center center;
