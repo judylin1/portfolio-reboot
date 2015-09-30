@@ -53,3 +53,8 @@ $(function() {
     return false;
   });
 })
+
+//tooltip hover
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
