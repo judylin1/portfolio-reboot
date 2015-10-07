@@ -233,9 +233,11 @@ body {
   color: #000;
   font-size: 20px;
 }
+
 .footer {
   background: #f8f8f8;
 }
+
 .navbar-static-bottom > div > ul > li {
   display: inline-block;
   font-size: 14px;
